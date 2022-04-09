@@ -67,7 +67,8 @@ This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes t
 - `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+`ui`, `docs` and `frontend` is 100% [TypeScript](https://www.typescriptlang.org/).
+`backend` is 100% [Python](https://www.python.org)
 
 ### Utilities
 
@@ -95,7 +96,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd root_dir_name
 pnpm run dev
 ```
 
@@ -106,7 +107,7 @@ Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo
 By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd root_dir_name
 pnpx turbo login
 ```
 
