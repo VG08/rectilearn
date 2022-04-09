@@ -1,12 +1,11 @@
 **This is the repo for the TWT codejam "Team Rectifiers"** 
 
 **Our plan:**
-`
+
 Goal: Create a website for studying (foreign languages) with many simple (web based) study games to make studying "less ordinary" we could make this website similar to gimkit, with a greater focus on user friendliness and many different game modes, as well as a personal dashboard to track your progress.
 The games will be simple 2D games, made in birds eye view, there should also be some simpler games like the classical gimkit "collecting money game"
 
 Our team: Atlas, Capitalism, Sanya, Rush2618, and VG
-
 
 Development fronts:
 
@@ -16,7 +15,7 @@ Devs: Sanya, Capitalism, and possibly atlas.
 |Backend| -  Develop user authentication, choosing the "Game of the day" and whatever else needs to be done (We will use fastAPI for backend)
 Devs: VG, Rush, and atlas (may need to learn fastAPI)
 
-|Database| - Store the user information, as well as the study sets of the user (We will use fireBase right?)
+|Database| - Store the user information, as well as the study sets of the user (NastyPigz wants to use Deta Base SDK)
 Devs: We can decide
 
 |Game Dev| - Create simple 2D games in JS (the more the better!) that let the user practice their study sets (idk what you guys want to use)
@@ -30,11 +29,10 @@ Pages:
     |User dashboard| Here the user will find the "Study game of the day", be able to create/import study sets, and track their progress.
 
     |Games| We should have about 10-15 different games to make the website "less ordinary" the user gets to choose a study set and then they could practice their words in the game. Games should be as unique as possible, and lets keep the games simple to keep up with the theme. (the more games the better!) 
-`
+
 
 **Timeline:**
 
-`
 April 6  } Setup our work environment
 April 7  } Start work on barebones of website, games, and everything else
 April 8  } Continue work from yesterday 
@@ -48,7 +46,7 @@ April 14 } Continue work from yesterday and add finishing touches
 April 15 } Make sure everything works and add finishing touches
 
 We might have a few more days, but we should have some extra time at the end
-`
+
 
 ## Packager Requirements
 
