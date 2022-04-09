@@ -4,13 +4,14 @@ import { mode } from "@chakra-ui/theme-tools";
 const styles = {
   global: (props : any) => ({
     body: {
-      bg: mode('#fff', '#202023')(props)
+      bg: mode('#fff', '#202023')(props),
+      textAlign: "center"
     }
   })
 }
 
 const config: ThemeConfig = {
-  initialColorMode: "dark",
+  initialColorMode: "light",
   useSystemColorMode: false,
 };
 

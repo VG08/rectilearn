@@ -1,10 +1,15 @@
-import { Button } from "ui";
+import { NextPage } from "next";
+import Head from "next/head";
 
-export default function Web() {
+const Dashboard: NextPage = () => {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <>
+      <Head>
+        <title>Page</title>
+      </Head>
+      {"Hello World"}
+    </>
   );
 }
+
+export default Dashboard;
