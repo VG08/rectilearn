@@ -17,7 +17,7 @@ models.Base.metadata.create_all(bind=engine)
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
 
 app = FastAPI()
 
@@ -109,7 +109,6 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
-        # port=int(os.getenv("PORT", default=8000)),
-        port=8080,
+        port=int(os.getenv("PORT", default=8000)),
         log_level="info",
     )
