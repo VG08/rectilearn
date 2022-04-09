@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "echo \"Docs is disabled\"",
+    "build": "echo \"Docs is disabled\"",
+    "start": "echo \"Docs is disabled\"",
+    "lint": "echo \"Docs is disabled\""
   },
   "dependencies": {
     "next": "12.0.8",
