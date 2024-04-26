@@ -1,5 +1,7 @@
 // run this using node sh.mjs [OPTIONAL_ARGS]
 
+// "postinstall": "pipenv install"
+
 import { spawn } from 'child_process';
 
 let cmd = "python3";
