@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# I accidentally included env vars in this and I dont want to fix it
+Dockerfile
+
 _test_script*.*
 
 # python

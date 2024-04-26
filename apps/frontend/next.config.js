@@ -21,7 +21,7 @@ module.exports = withBundleAnalyzer(
           // },
         {
           source: "/api/:path*/",
-          destination: `https://steep-thunder-production-0a14.up.railway.app/:path*/`,
+          destination: `https://rectilearn-prod.onrender.com/:path*/`,
         },
       ];
     },
