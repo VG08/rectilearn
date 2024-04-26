@@ -31,6 +31,13 @@ const SignUpForm = () => {
                     password: "",
                 }}
                 onSubmit={async (values) => {
+                    toast({
+                        title: "Note: Backend is cold-rebooted",
+                        description: "Due to budget limitations we cannot afford to host it 24/7. The backend is currently hosted on render and has a 15s - 70s cold reboot upon request",
+                        status: "warning",
+                        isClosable: true,
+                        duration: 8000
+                    });
                     const res = await fetch("/api/auth/users/create/", {
                         method: 'POST',
                         headers: {
