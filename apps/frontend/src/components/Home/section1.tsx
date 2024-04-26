@@ -136,7 +136,7 @@ export default function CallToActionWithVideo() {
               />
               {/* <video autoPlay={playing} src="https://drive.google.com/uc?export=download&id=1-setUsqtbIApVKQAqWtWAx5dYu59Wa3q" muted={true} onClick={setPlaying} /> */}
               {/* <AspectRatio ratio={4/3}> */}
-                <Box as="iframe" src="https://www.youtube.com/embed/0Z5OMzX-Lyw?si=Zxxeq9G5glP7dYq4" title="Rectilearn promotion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                <Box width={'full'} height={'full'} as="iframe" src="https://www.youtube.com/embed/0Z5OMzX-Lyw?si=Zxxeq9G5glP7dYq4" title="Rectilearn promotion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </Box>
               {/* </AspectRatio> */}
             </Box>
